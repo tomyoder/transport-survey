@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <title>Transportation</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="Jumbotron">
+        <h1>Transport Survey</h1>
+      </div>
+      <form id="transportSurvey">
+        <div class="form-group">
+          <p>This Year, I have used the following to get to work, or school.</p>
+            <input type="checkbox" name="worktrans" value="bike"> A Bicycle<br>
+            <input type="checkbox" name="worktrans" value="bus"> A Bus<br>
+            <input type="checkbox" name="worktrans" value="car"> A Car<br>
+            <input type="checkbox" name="worktrans" value="motorcycle"> A Motorcycle<br>
+            <input type="checkbox" name="worktrans" value="scooter"> A Scooter<br>
+            <input type="checkbox" name="worktrans" value="feet"> Walking<br>
+            <input type="checkbox" name="worktrans" value="toaster"> My Toaster<br>
+        </div>
+        <div class="form-group">
+          <p>This Year, I have used the following to get anywhere buyt work.</p>
+            <input type="checkbox" name="funtrans" value="bike"> A Bicycle<br>
+            <input type="checkbox" name="funtrans" value="bus"> A Bus<br>
+            <input type="checkbox" name="funtrans" value="car"> A Car<br>
+            <input type="checkbox" name="funtrans" value="motorcycle"> A Motorcycle<br>
+            <input type="checkbox" name="funtrans" value="scooter"> A Scooter<br>
+            <input type="checkbox" name="funtrans" value="feet"> Walking<br>
+            <input type="checkbox" name="funtrans" value="toaster"> My Toaster<br>
+        </div>
+        <button type="submit">Submit Survey</button>
+      </form>
+      <span id="workResponse">
+        <p>You used the following transportation to get to work:</p>
+      </span>
+      <br>
+      <span id="funResponse">
+        <p>You used the following transportation to have fun:</p>
+      </span>
+    </div>
+  </body>
+</html>
